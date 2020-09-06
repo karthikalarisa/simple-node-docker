@@ -6,7 +6,7 @@ EXPOSE 8000
 
 WORKDIR /opt/app-root/src
 
-COPY hello-http.js .
+COPY hello.js .
 COPY package.json .
 
 CMD ["npm", "start"]
