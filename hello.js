@@ -1,6 +1,6 @@
 const os = require('os');
 const http = require('http');
-let cnt = 0;
+let cnt = 100;
 
 http.createServer((req, res) =>
 {
